@@ -1,6 +1,13 @@
 {
-  "dependencies": {
-    "@types/node": "^18.8.4",
-    "terminal-kit": "^3.0.0"
+  "name": "irp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ofcRS/irp.git",
+  "author": "aleksander.sakhtakiy <azeric054@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build": "webpack --config ./webpack/webpack.prod.js",
+    "dev": "webpack serve --open --config ./webpack/webpack.dev.js"
   }
 }

@@ -17,6 +17,7 @@ export default {
   stats: 'errors-warnings',
   output: {
     path: path.resolve('dist'),
-    filename: 'output.js'
+    filename: 'output.js',
+    clean: true
   }
 }
