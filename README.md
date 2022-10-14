@@ -1,3 +1,5 @@
 # Init React Project (IRP)
 
-Run `./irp.sh` to initialize project.  
+## Usage
+Run `./node_modules/@ofcrs/irp/irp.sh` then 
+follow the command line instructions to initialize project. 

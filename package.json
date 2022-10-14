@@ -1,6 +1,6 @@
 {
-  "name": "irp",
-  "version": "0.1",
+  "name": "@ofcrs/irp",
+  "version": "0.1.0",
   "main": "initializeConfigs.mjs",
   "repository": "git@github.com:ofcRS/irp.git",
   "author": "aleksander.sakhtakiy <azeric054@gmail.com>",
