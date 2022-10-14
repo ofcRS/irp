@@ -5,9 +5,10 @@
   "repository": "git@github.com:ofcRS/irp.git",
   "author": "aleksander.sakhtakiy <azeric054@gmail.com>",
   "license": "MIT",
-  "sideEffects": false,
-  "scripts": {
-    "build": "webpack --config ./webpack/webpack.prod.js",
-    "dev": "webpack serve --open --config ./webpack/webpack.dev.js"
+  "dependencies": {
+    "terminal-kit": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/terminal-kit": "^2.5.0"
   }
 }

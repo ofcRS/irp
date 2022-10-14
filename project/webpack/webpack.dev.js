@@ -1,23 +1,10 @@
-import path from 'path';
+import { merge } from 'webpack-merge'
+import webpackCommon from './webpack.common';
 
-export default {
-  mode: "development",
-  entry: "./src/index.tsx",
-  module: {
-    rules: [
-      {
-        test: /.[jt]sx?$/,
-        use: {
-          loader: 'babel-loader'
-        },
-        exclude: /node_modules/
-      }
-    ]
-  },
-  stats: 'errors-warnings',
-  output: {
-    path: path.resolve('dist'),
-    filename: 'output.js',
-    clean: true
+export default merge(webpackCommon, {
+  devtool: 'inline-source-map',
+  mode: 'development',
+  devServer: {
+    static: 'out'
   }
-}
+})

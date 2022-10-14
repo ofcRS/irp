@@ -1,8 +1,7 @@
-import path from 'path';
-import baseConfig from './webpack.dev';
+import { merge } from 'webpack-merge'
+import webpackCommon from './webpack.common';
 
-export default {
-  ...baseConfig,
+export default merge(webpackCommon, {
   mode: 'production',
   devtool: 'source-map'
-}
+})
