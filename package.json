@@ -1,10 +1,11 @@
 {
   "name": "irp",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1",
+  "main": "initializeConfigs.mjs",
   "repository": "git@github.com:ofcRS/irp.git",
   "author": "aleksander.sakhtakiy <azeric054@gmail.com>",
   "license": "MIT",
+  "description": "Init React Project",
   "dependencies": {
     "terminal-kit": "^3.0.0"
   },
