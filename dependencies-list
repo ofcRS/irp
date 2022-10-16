@@ -1,0 +1,16 @@
+@babel/cli
+@babel/core
+@babel/preset-env
+@types/lodash
+@types/react
+@types/react-dom
+babel-loader
+core-js
+html-webpack-plugin
+lodash
+react
+react-dom
+webpack
+webpack-cli
+@babel/preset-react
+@babel/preset-typescript
