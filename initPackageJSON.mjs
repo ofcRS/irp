@@ -11,8 +11,9 @@ export const initPackageJSON = async () => {
     packageJSON.sideEffects = false;
     packageJSON.scripts = {
       build: 'webpack --config ./webpack/webpack.prod.js',
-      dev: 'webpack serve --open --config ./webpack/webpack.dev.js'
+      dev: 'webpack serve --config ./webpack/webpack.dev.js'
     }
+    packageJSON.type = 'module';
 
     await writeFile('package.json', JSON.stringify(packageJSON, null, 2));
   } catch (error) {

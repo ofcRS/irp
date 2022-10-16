@@ -5,6 +5,8 @@ export default merge(webpackCommon, {
   devtool: 'inline-source-map',
   mode: 'development',
   devServer: {
-    static: 'out'
+    static: 'out',
+    port: 3000,
+    host: '0.0.0.0'
   }
 })
