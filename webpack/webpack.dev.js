@@ -8,5 +8,6 @@ export default merge(webpackCommon, {
     static: 'out',
     port: 3000,
     host: '0.0.0.0'
-  }
+  },
+  stats: 'errors-warnings'
 })
