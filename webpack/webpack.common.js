@@ -2,13 +2,13 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
-  entry: '../src/index.tsx',
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.js', '.ts', '.tsx']
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: '../public/index.html'
+      template: './public/index.html'
     })
   ],
   module: {

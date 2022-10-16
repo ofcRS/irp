@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const Root = () => {
   return <main style={{ display: 'flex', justifyContent: 'center' }}>
     <h1>
